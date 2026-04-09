@@ -30,7 +30,7 @@ A comprehensive Power BI dashboard analyzing the performance of Adventure Works,
 - Total Profit = [Total Revenue] - [Total Cost]
 - Total Returns = Count('Returns Data'[Return Quantity])
 - Quantity Returned = SUM('Returns Data'[Return Quantity'])
-- Quantity Sold = SUM('Sales Data'[Order Quantitiy])
+- Quantity Sold = SUM('Sales Data'[Order Quantity])
 - Return Rate = DIVIDE( [Quantity Returned],[Quantity Sold],"No Sales")
 - Previous Month Orders = CALCULATE ([Total Orders], DATEADD('Calendar Lookup'[Date],-1,MONTH))
 - Previous Month Revenue = CALCULATE ([Total Revenue], DATEADD('Calendar Lookup'[Date],-1,MONTH))
@@ -48,5 +48,6 @@ This project utilizes a star schema with eight main tables:
 - Calendar Lookup
 - Product Lookup
 - Product Category Lookup
-- Product Subcategories Lookup 
+- Product Subcategories Lookup
+  
   
