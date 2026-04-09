@@ -36,4 +36,17 @@ A comprehensive Power BI dashboard analyzing the performance of Adventure Works,
 - Previous Month Revenue = CALCULATE ([Total Revenue], DATEADD('Calendar Lookup'[Date],-1,MONTH))
 - Previous Month Profit = CALCULATE ([Total Profit], DATEADD('Calendar Lookup'[Date],-1,MONTH))
 - Previous Month Returns = CALCULATE ([Total Returns], DATEADD('Calendar Lookup'[Date],-1,MONTH))
+
+## Data Model
+This project utilizes a star schema with eight main tables: 
+### Fact Tables
+- Sales Data
+- Returns Data 
+### Dimension Tables
+- Territory Lookup
+- Customer Lookup
+- Calendar Lookup
+- Product Lookup
+- Product Category Lookup
+- Product Subcategories Lookup 
   
