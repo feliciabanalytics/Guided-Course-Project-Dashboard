@@ -22,3 +22,18 @@ A comprehensive Power BI dashboard analyzing the peformance of Adventure Works, 
 - Target Guage Comparison
 - Adjustment Scenario 
 - Interactive Map Vizualization
+  
+## DAX Calculations
+- Total Orders = DISTINCTCOUNT('Sales Data'[Order Number])
+- Total Revenue = SUMX('Sales Data','Sales Data'[Order Quanity]*RELATED('Product Lookup'[Product Price])
+- Total Cost = SUMX('Sales Data','Sales Data'[Order Quanity]*RELATED('Product Lookup'[Product Cost])
+- Total Profit = [Total Revenue] - [Total Cost]
+- Total Returns = Count('Returns Data'[Return Quantity]
+- Return Rate = DIVIDE( [Quantity Returned],[Quanity Sold],"No Sales")
+- Quantity Returned = SUM('Returns Data'[Return Quantity']
+- Quanity Sold = SUM('Sales Data'[Order Quanitiy])
+- Previous Month Orders = CALCULATE ([Total Orders], DATEADD('Calendar Lookup'[Date],-1,MONTH)
+- Previous Month Revenue = CALCULATE ([Total Revenue], DATEADD('Calendar Lookup'[Date],-1,MONTH)
+- Previous Month Profit = CALCULATE ([Total Profit], DATEADD('Calendar Lookup'[Date],-1,MONTH)
+- Previous Month Returns = CALCULATE ([Total Returns], DATEADD('Calendar Lookup'[Date],-1,MONTH)
+- 
