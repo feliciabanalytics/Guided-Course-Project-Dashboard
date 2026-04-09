@@ -1,4 +1,5 @@
-# Guided Course Project Dashboard
+# Adventure Works KPI Dashboard
+A comprehensive Power BI dashboard analyzing the peformance of Adventure Works, a cycling equipment and accesories manufacturer, translating transation and sales data into actionable KPIs ( sales, revenue, profit, & returns), product level trends, and high-value customer insights. 
 
 ## Executive Summary Page
 <img width="950" height="536" alt="image" src="https://github.com/user-attachments/assets/f043666e-7c6f-4071-8c8f-5635b4293f31" />
