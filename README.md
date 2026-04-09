@@ -13,3 +13,12 @@ A comprehensive Power BI dashboard analyzing the peformance of Adventure Works, 
 
 ## Customer Detail Page
 <img width="818" height="464" alt="image" src="https://github.com/user-attachments/assets/c3a62cfb-02cc-4a5e-b052-888f20fc1af9" />
+
+## Dashboard Features
+- KPI Cards
+- Interactive Slicers
+- Drill Through Capabilities
+- Conditional Color Formatting
+- Target Guage Comparison
+- Adjustment Scenario 
+- Interactive Map Vizualization
